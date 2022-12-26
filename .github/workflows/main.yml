@@ -19,4 +19,3 @@ jobs:
         password: shouvik@8017
         protocol: ftps
         port: 21
-        server-dir: /public_html/github_cicd_action/
