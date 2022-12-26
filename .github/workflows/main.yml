@@ -1,7 +1,7 @@
 on:
   push:
     branches:
-      -main
+    - main
 name: 🚀 Deploy website on push
 jobs:
   web-deploy:
@@ -9,10 +9,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: 🚚 Get latest code
-      uses: actions/checkout@v2.3.2
-    
+      uses: actions/checkout@v2
+
     - name: 📂 Sync files
-      uses: SamKirkland/FTP-Deploy-Action@4.0.0
+      uses: SamKirkland/FTP-Deploy-Action@4.3.3
       with:
         server: ftp.wc-webcreativity.com
         username: shouvik8017@wc-webcreativity.com
