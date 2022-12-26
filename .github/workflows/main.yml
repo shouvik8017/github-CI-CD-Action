@@ -17,4 +17,4 @@ jobs:
         server: ftp.wc-webcreativity.com
         username: shouvik8017@wc-webcreativity.com
         password: shouvik@8017
-        server-dir: /public_html/github_cicd_action/
+        server-dir: /home/twld0ug0rny2/public_html/wc-webcreativity.com/github_cicd_action
