@@ -14,8 +14,8 @@ jobs:
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@4.3.3
       with:
-        server: 107.180.4.59
-        username: shouvik8017@wc-webcreativity.com
-        password: shouvik@8017
+        server: 123
+        username: demo
+        password: demo
         protocol: ftps
         port: 21
